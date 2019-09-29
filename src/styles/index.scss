@@ -1,0 +1,25 @@
+$bgcolor:#ccc;
+$link-color:#f00;
+@import'./sprites';
+.icon{
+	&.icon-clock{
+		@include sprite($image-1-);
+	}
+}
+body{
+background-color:$bgcolor;
+	a{
+	color:$link-color;
+	}
+	.container
+	{
+	a{
+		color:$link-color;
+		a:hover
+		{
+		color:#fff;}
+	}	
+	}
+color: #FF0;
+}
+
